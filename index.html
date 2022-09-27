@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html>
   <body>
-      <h3><strong>login</strong></strong></h3>
-      <fieldset><legend>Sign in</legend>
-        <input type="text" placeholder="Email">
-            <br>
-        <input type="password" placeholder="Password">
-            <br>
-      </fieldset>
-      <fieldset><legend>Username</legend>
-        <input type="text" placeholder="First name">
-            <br>
-        <input type="text" placeholder="Last name">
-            <br>
-        <input type="date" placeholdee="date">
-            <br>
-      </fieldset>
-      <button>Submit</button>
+    <h2>Coba Klik Di Bawah Ini</h2>
+    <p>Jika anda menekan tombol ini,maka akan ada kejutan</p>
+
+    <h1 id="myHeader">Hello Friends!</h1>
+    <button onclick="displayResult()">CLICK</button>
+    
+    <script>
+    function displayResult() {
+      document.getElementById("myHeader").innerHTML = "Have a nice day!";
+    }
+    </script>
   </body>
 </html>
-
