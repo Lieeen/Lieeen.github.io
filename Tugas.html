@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>WEB Saya</title>
+    <style>
+      table, td {
+        border: 1px solid black;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Forder Barang</h1>
+      <form width="100%">
+        <table>
+          <tr>
+            <td rowspan="2">Isikan Data-Data Anda</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="number" min="1" max="99"></td>
+          </tr>
+          <tr>
+            <td>Nama Depan</td>
+            <td>Nama Akhir</td>
+            <td>Umur</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Bagaimana Menghubungi Anda</td>
+            <td colspan="3">Alamat Rumah :<textarea></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label for="kota">Kota :</label>
+              <input type="text" id="kota">
+            </td>
+             <td>
+              <label for="negara">Negara :</label>
+              <input type="text" id="negara">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label for="kode_pos">Kode Pos</label>
+              <input type="text" id="kode_pos">
+            </td>
+            <td>
+              <label for="nomor_telepon">Nomor Telepon :</label>
+              <input type="number" min="1" max="99" id="nomor_telepon">-<input type="text">
+            </td>
+          </tr>
+          <tr>
+            <td>Credit Card 
+              <input type="radio">Visa
+              <input type="radio">M/C
+            </td>
+            <td colspan="2">
+              <input min="1" max="99" type="number">
+              <input min="1" max="99" type="number">
+              <input min="1" max="99" type="number">
+              <input min="1" max="99" type="number">
+            </td>
+            <td>
+              <label for="tanggal_berakhir">Tanggal Berakhir :</label>
+              <input type="number" min="1" max="99" id="tanggal_berakhir">  <input type="number" min="1" max="99" id="tanggal_berakhir">
+            </td>
+          </tr>
+          <tr>
+            <td>Jenis Barang</td>
+            <td colspan="3">
+              <select>
+                <option>Pentium I</option>
+                <option>Pentiom II</option>
+                <option>Pentium III</option>
+                <option>Pentium IV</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4"><h1>Terimakasih Atas Order Anda!</h1></td>
+          </tr>
+        </table>
+      </form>
+      <center>
+      <button onclick="button">Kirim</button>
+      <button onclick="button">Hapus Isian</button>
+      </center>
+  </body>
+</html>
